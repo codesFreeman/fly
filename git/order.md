@@ -1,7 +1,7 @@
 GIT命令汇总
-
+==========
 增加svn分支到git
-================
+==========
 git config --add svn-remote.2.2.x.url https://svn.jboss.org/repos/modeshape/branches/2.2.x/
 git config --add svn-remote.2.2.x.fetch :refs/remotes/2.2.x
 git svn fetch 2.2.x
